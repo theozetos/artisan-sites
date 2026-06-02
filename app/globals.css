@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-fraunces: 'Fraunces', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-inter-tight: 'Inter Tight', system-ui, sans-serif;
+  --font-geist: 'Geist', system-ui, sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+  --font-lora: 'Lora', Georgia, serif;
+}
+
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; }
+
+/* H2eau particle glow */
+.h2-glow {
+  text-shadow: 0 0 24px rgba(0, 229, 255, 0.5), 0 0 48px rgba(0, 229, 255, 0.25);
+}
+
+/* Ur Beroa lauburu bg */
+.lauburu-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23BC1F26' stroke-width='1' opacity='0.08'%3E%3Cpath d='M100 100 Q100 50 70 50 Q40 50 40 80 Q40 100 60 100'/%3E%3Cpath d='M100 100 Q150 100 150 70 Q150 40 120 40 Q100 40 100 60'/%3E%3Cpath d='M100 100 Q100 150 130 150 Q160 150 160 120 Q160 100 140 100'/%3E%3Cpath d='M100 100 Q50 100 50 130 Q50 160 80 160 Q100 160 100 140'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* GS Climatech texture */
+.copper-line {
+  background: linear-gradient(90deg, transparent, #B87333, transparent);
+  height: 1px;
+}
