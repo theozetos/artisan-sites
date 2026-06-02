@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "plomberie-test",
+    "name": "Plomberie Test",
+    "legalName": "Plomberie Test",
+    "owner": "Jean Dupont",
+    "trade": "Plombier",
+    "address": "1 rue Test, 75000 Paris",
+    "phone": "+33 6 12 34 56 78",
+    "phoneDisplay": "06 12 34 56 78",
+    "whatsapp": "33612345678",
+    "email": "jean@test.fr",
+    "founded": null,
+    "siret": null,
+    "domain": "plomberie-test.fr",
+    "cityMain": "Paris",
+    "zones": [
+      "Paris",
+      "Boulogne",
+      "Neuilly"
+    ],
+    "googleMapsUrl": "",
+    "rating": 5,
+    "reviews": 0
+  },
+  "variant": "gs-climatech",
+  "theme": {
+    "primary": "#0A1628",
+    "primaryDark": "#050B14",
+    "accent": "#3B82F6",
+    "accentDark": "#2563EB",
+    "bg": "#FFFFFF",
+    "ink": "#0A1628",
+    "mode": "light"
+  },
+  "assets": {
+    "logoUrl": null,
+    "heroUrl": null,
+    "portraitUrl": null,
+    "galleryUrls": []
+  },
+  "copy": {
+    "hero": {
+      "badge": "Urgence 7j/7",
+      "titleLines": [
+        "Plomberie",
+        "de confiance",
+        "à Paris"
+      ],
+      "subtitle": "Dépannage rapide et installation de salles de bain. 15 ans d'expérience au service des Parisiens.",
+      "proofs": [
+        {
+          "label": "15 ans",
+          "sub": "d'expérience terrain"
+        },
+        {
+          "label": "7j/7",
+          "sub": "interventions urgence"
+        },
+        {
+          "label": "8h–19h",
+          "sub": "disponibilité"
+        }
+      ]
+    },
+    "servicesIntro": "Des interventions rapides et soignées pour tous vos besoins en plomberie.",
+    "services": [
+      {
+        "name": "Dépannage d'urgence",
+        "desc": "Fuite, canalisation bouchée, chaudière en panne : j'interviens rapidement pour limiter les dégâts et rétablir votre confort.",
+        "icon": "Wrench"
+      },
+      {
+        "name": "Installation de salle de bain",
+        "desc": "Création ou rénovation complète : douche à l'italienne, baignoire, vasques, robinetterie. Un projet clé en main, propre et sans surprise.",
+        "icon": "Bath"
+      },
+      {
+        "name": "Recherche de fuite",
+        "desc": "Détection précise sans casse inutile. J'identifie l'origine du problème et vous propose la solution adaptée.",
+        "icon": "Search"
+      },
+      {
+        "name": "Débouchage canalisation",
+        "desc": "Évier, WC, douche : débouchage mécanique ou haute pression selon la situation. Intervention propre, résultat immédiat.",
+        "icon": "Droplets"
+      }
+    ],
+    "about": [
+      "Je suis Jean Dupont, plombier installé à Paris depuis 15 ans.",
+      "Formé aux techniques classiques et modernes, j'interviens aussi bien pour un robinet qui fuit que pour la rénovation complète de votre salle de bain.",
+      "Chaque chantier est mené avec le même soin : diagnostic honnête, devis clair, travail propre et respect des délais.",
+      "Disponible 7 jours sur 7 pour les urgences, je couvre Paris, Boulogne et Neuilly."
+    ],
+    "prices": [],
+    "faq": [
+      {
+        "q": "Vous intervenez en urgence le week-end ?",
+        "a": "Oui, je suis disponible 7j/7 pour les urgences : fuites importantes, chaudière en panne, WC bouchés… J'appelle dès réception de votre message pour évaluer la situation."
+      },
+      {
+        "q": "Comment se passe un projet de rénovation de salle de bain ?",
+        "a": "On commence par un rendez-vous chez vous pour discuter de vos envies et mesurer l'espace. Je vous remets ensuite un devis détaillé. Une fois validé, je coordonne les travaux du début à la fin : plomberie, carrelage, électricité si besoin."
+      },
+      {
+        "q": "Vous vous déplacez dans quelles zones ?",
+        "a": "J'interviens à Paris et dans les communes limitrophes : Boulogne-Billancourt, Neuilly-sur-Seine. Pour d'autres secteurs, contactez-moi, c'est souvent possible selon l'intervention."
+      },
+      {
+        "q": "Le devis est-il payant ?",
+        "a": "Non, le devis est gratuit et sans engagement. Je me déplace chez vous, on discute du besoin et je vous remets un chiffrage clair."
+      }
+    ],
+    "ctaTitle": "Un besoin en plomberie ? Parlons-en.",
+    "ctaSubtitle": "Appelez-moi ou envoyez un message, je vous réponds rapidement.",
+    "ctaBullets": [
+      "Devis gratuit et détaillé",
+      "Intervention rapide, 7j/7 pour les urgences",
+      "15 ans d'expérience à Paris"
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Sophie L.",
+      "rating": 5,
+      "text": "Fuite dans la cuisine un dimanche matin, Jean est intervenu dans l'heure. Efficace, propre, prix honnête. Je recommande sans hésiter.",
+      "date": "2024-02-15"
+    },
+    {
+      "name": "Marc D.",
+      "rating": 5,
+      "text": "Rénovation complète de notre salle de bain. Travail impeccable, finitions soignées, respect du planning. Un vrai professionnel.",
+      "date": "2024-01-22"
+    },
+    {
+      "name": "Claire B.",
+      "rating": 5,
+      "text": "Très réactif pour un dépannage de chaudière en plein hiver. Jean a pris le temps d'expliquer le problème et la réparation. Nickel.",
+      "date": "2024-03-08"
+    },
+    {
+      "name": "Thomas V.",
+      "rating": 4,
+      "text": "Intervention rapide pour un WC bouché. Travail efficace, Jean est sympathique et de bon conseil. Je garde le contact.",
+      "date": "2024-02-28"
+    }
+  ],
+  "booking": {
+    "calLink": null,
+    "rdvDuration": null,
+    "rdvBuffer": null
+  },
+  "seo": {
+    "title": "Plomberie Test – Plombier à Paris | Dépannage & Salle de bain",
+    "description": "Plombier à Paris, 15 ans d'expérience. Dépannage urgent 7j/7, installation de salle de bain, recherche de fuite. Devis gratuit. Intervention rapide à Paris, Boulogne, Neuilly."
+  },
+  "status": "generated",
+  "meta": {
+    "generatedAt": "2026-06-02T14:36:21.838Z",
+    "model": "claude-sonnet-4-5",
+    "briefReceivedAt": null
+  }
+}
