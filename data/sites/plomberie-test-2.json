@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "slug": "plomberie-test-2",
+    "name": "Plomberie Test 2",
+    "legalName": "Plomberie Test 2",
+    "owner": "Jean Dupont",
+    "trade": "Plombier",
+    "address": "1 rue Test, 75000 Paris",
+    "phone": "+33 6 12 34 56 78",
+    "phoneDisplay": "06 12 34 56 78",
+    "whatsapp": "33612345678",
+    "email": "jean@test.fr",
+    "founded": null,
+    "siret": null,
+    "domain": "plomberie-test-2.fr",
+    "cityMain": "Paris",
+    "zones": [
+      "Paris",
+      "Boulogne",
+      "Neuilly"
+    ],
+    "googleMapsUrl": "",
+    "rating": 5,
+    "reviews": 0
+  },
+  "variant": "gs-climatech",
+  "theme": {
+    "primary": "#0A1628",
+    "primaryDark": "#050B14",
+    "accent": "#3B82F6",
+    "accentDark": "#2563EB",
+    "bg": "#FFFFFF",
+    "ink": "#0A1628",
+    "mode": "light"
+  },
+  "assets": {
+    "logoUrl": null,
+    "heroUrl": null,
+    "portraitUrl": null,
+    "galleryUrls": []
+  },
+  "copy": {
+    "hero": {
+      "titleLines": [
+        "Plomberie d'urgence",
+        "et rénovation",
+        "à Paris"
+      ],
+      "subtitle": "Dépannage 7j/7 et installation de salles de bain. Intervention rapide, 15 ans d'expérience.",
+      "badge": "Intervention 7j/7",
+      "proofs": [
+        {
+          "label": "15 ans",
+          "sub": "d'expérience terrain"
+        },
+        {
+          "label": "8h–19h",
+          "sub": "et urgences 7j/7"
+        }
+      ]
+    },
+    "servicesIntro": "Dépannage urgent ou projet de rénovation : nous intervenons sur tout type de travaux de plomberie.",
+    "services": [
+      {
+        "name": "Dépannage plomberie",
+        "desc": "Fuite, robinetterie, chasse d'eau, WC bouché : intervention rapide à Paris et proche banlieue.",
+        "icon": "Wrench"
+      },
+      {
+        "name": "Installation salle de bain",
+        "desc": "Douche à l'italienne, baignoire, meuble vasque : projet clé en main ou remplacement d'équipement.",
+        "icon": "Bath"
+      },
+      {
+        "name": "Recherche de fuite",
+        "desc": "Détection sans casse, caméra d'inspection, réparation ciblée pour limiter les dégâts.",
+        "icon": "Search"
+      },
+      {
+        "name": "Remplacement chauffe-eau",
+        "desc": "Ballon électrique, chauffe-eau thermodynamique : installation et mise en service conforme.",
+        "icon": "Flame"
+      }
+    ],
+    "about": [
+      "Jean Dupont, plombier depuis 15 ans, intervient à Paris, Boulogne et Neuilly.",
+      "Que ce soit pour une urgence ou un projet de rénovation, nous assurons un travail soigné et des conseils adaptés à votre situation.",
+      "Disponible 7j/7 pour les dépannages urgents, nous privilégions la réactivité et la transparence sur chaque intervention.",
+      "Devis clair, délais respectés, chantier propre : notre engagement au quotidien."
+    ],
+    "prices": [],
+    "faq": [
+      {
+        "q": "Vous intervenez en urgence le week-end ?",
+        "a": "Oui, nous sommes disponibles 7j/7 pour tout dépannage urgent : fuite, chasse d'eau cassée, robinet bloqué. Appelez-nous directement."
+      },
+      {
+        "q": "Quels délais pour l'installation d'une salle de bain ?",
+        "a": "Tout dépend de l'ampleur du projet. Après visite, nous vous donnons un planning précis. En moyenne, comptez entre 3 et 7 jours pour une rénovation complète."
+      },
+      {
+        "q": "Le devis est-il gratuit ?",
+        "a": "Oui, le devis est gratuit et sans engagement. Nous nous déplaçons pour évaluer vos besoins et vous proposer une solution adaptée."
+      },
+      {
+        "q": "Vous couvrez quelles zones autour de Paris ?",
+        "a": "Nous intervenons principalement à Paris, Boulogne-Billancourt et Neuilly-sur-Seine. Pour d'autres communes limitrophes, contactez-nous."
+      }
+    ],
+    "ctaTitle": "Besoin d'un plombier à Paris ?",
+    "ctaSubtitle": "Dépannage rapide ou projet sur mesure : appelez-nous ou demandez un devis gratuit.",
+    "ctaBullets": [
+      "Intervention 7j/7 pour les urgences",
+      "15 ans d'expérience, travail soigné",
+      "Devis gratuit et transparent"
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Sophie L.",
+      "rating": 5,
+      "text": "Fuite dans la salle de bain un dimanche soir, Jean est venu en 1h. Réparation nickel, tarif honnête. Je recommande.",
+      "date": "2025-01-10"
+    },
+    {
+      "name": "Marc D.",
+      "rating": 5,
+      "text": "Rénovation complète de notre salle de bain : douche italienne, carrelage, robinetterie. Travail impeccable, chantier propre. Merci !",
+      "date": "2024-12-28"
+    },
+    {
+      "name": "Isabelle R.",
+      "rating": 5,
+      "text": "Changement de chauffe-eau réalisé en une matinée. Explications claires, devis respecté. Très pro.",
+      "date": "2024-11-15"
+    },
+    {
+      "name": "Thomas B.",
+      "rating": 4,
+      "text": "Dépannage rapide pour un WC bouché. Efficace et sympa. Petit délai pour avoir le devis écrit mais rien de gênant.",
+      "date": "2024-10-22"
+    }
+  ],
+  "booking": {
+    "calLink": null,
+    "rdvDuration": null,
+    "rdvBuffer": null
+  },
+  "seo": {
+    "title": "Plombier Paris 7j/7 | Dépannage & Salle de Bain – Plomberie Test 2",
+    "description": "Plombier à Paris : dépannage 7j/7, installation salle de bain, recherche de fuite. 15 ans d'expérience. Devis gratuit. Intervention Paris, Boulogne, Neuilly."
+  },
+  "status": "generated",
+  "meta": {
+    "generatedAt": "2026-06-02T15:47:55.722Z",
+    "model": "claude-sonnet-4-5",
+    "briefReceivedAt": null
+  }
+}
