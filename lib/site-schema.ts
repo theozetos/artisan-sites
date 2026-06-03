@@ -301,6 +301,7 @@ export function ctaButtonLabel(contactPref?: string | null): string {
     case 'appel': return 'Être rappelé rapidement';
     case 'sms': return 'Recevoir un créneau par SMS';
     case 'email': return 'Envoyer ma demande par email';
+    case 'rdv': return 'Prendre rendez-vous en ligne';
     case 'formulaire': return 'Envoyer ma demande';
     default: return 'Envoyer ma demande';
   }
