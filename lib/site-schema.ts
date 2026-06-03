@@ -349,7 +349,7 @@ export function mapBriefToSeed(brief: Record<string, any>): {
 } {
   const name = String(brief.company || '').trim();
   const slug = slugify(brief.domain ? brief.domain.replace(/\.(fr|com|net|eu)$/i, '') : name);
-  const variant = modelToVariant(brief.model);
+  const variant = modelToVariant(brief.model === 'autre' ? (brief.model_other || '') : brief.model);
 
   const zones = String(brief.cities_other || '')
     .split(/[,\n;/]+/).map((s) => s.trim()).filter(Boolean);
