@@ -14,6 +14,7 @@ import { motion } from 'framer-motion';
 import { Phone, Star, ChevronRight, Clock, MapPin, Award } from 'lucide-react';
 import { useState } from 'react';
 import type { ArtisanSite } from '@/lib/site-schema';
+import { ctaButtonLabel } from '@/lib/site-schema';
 import { Icon } from '@/components/Icon';
 
 function themeVars(t: ArtisanSite['theme']): React.CSSProperties {
@@ -258,7 +259,7 @@ export default function GsClimatechTemplate({ data }: { data: ArtisanSite }) {
               <input type="text" required placeholder="Votre nom" value={form.nom} onChange={(e) => setForm({ ...form, nom: e.target.value })} className="w-full px-5 py-4 rounded-xl bg-white border outline-none transition-colors" style={{ borderColor: 'var(--c-ink-10)' }} />
               <input type="tel" required placeholder="Téléphone" value={form.tel} onChange={(e) => setForm({ ...form, tel: e.target.value })} className="w-full px-5 py-4 rounded-xl bg-white border outline-none transition-colors" style={{ borderColor: 'var(--c-ink-10)' }} />
               <textarea required placeholder="Votre besoin" rows={5} value={form.besoin} onChange={(e) => setForm({ ...form, besoin: e.target.value })} className="w-full px-5 py-4 rounded-xl bg-white border outline-none transition-colors resize-none" style={{ borderColor: 'var(--c-ink-10)' }} />
-              <button type="submit" className="w-full text-white py-4 rounded-xl font-medium transition-colors" style={{ background: 'var(--c-primary)' }}>Demander un devis gratuit</button>
+              <button type="submit" className="w-full text-white py-4 rounded-xl font-medium transition-colors" style={{ background: 'var(--c-primary)' }}>{ctaButtonLabel(data.booking?.contactPref)}</button>
             </form>
           </div>
         </div>

@@ -184,6 +184,8 @@ export interface SiteBooking {
   calLink: string | null;
   rdvDuration: string | null;
   rdvBuffer: string | null;
+  /** Canal de contact privilégié : "Appel" | "SMS" | "Email" | "Formulaire". */
+  contactPref?: string | null;
 }
 
 /** Membre d'équipe (optionnel — section masquée si absente). */
@@ -293,6 +295,17 @@ export const defaultThemes: Record<SiteVariant, SiteTheme> = {
 // Helpers
 // ──────────────────────────────────────────────────────────────────────────
 
+/** Libellé du bouton CTA selon le canal de contact privilégié de l'artisan. */
+export function ctaButtonLabel(contactPref?: string | null): string {
+  switch ((contactPref || '').toLowerCase()) {
+    case 'appel': return 'Être rappelé rapidement';
+    case 'sms': return 'Recevoir un créneau par SMS';
+    case 'email': return 'Envoyer ma demande par email';
+    case 'formulaire': return 'Envoyer ma demande';
+    default: return 'Envoyer ma demande';
+  }
+}
+
 /** Slugify FR — "GS Climatech" → "gs-climatech". */
 export function slugify(input: string): string {
   return String(input || '')
@@ -367,6 +380,7 @@ export function mapBriefToSeed(brief: Record<string, any>): {
       calLink: null, // configuré après coup via brief.calendar_email
       rdvDuration: String(brief.rdv_duration || '').trim() || null,
       rdvBuffer: String(brief.rdv_buffer || '').trim() || null,
+      contactPref: String(brief.contact_pref || '').trim() || null,
     },
   };
 }

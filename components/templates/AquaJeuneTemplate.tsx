@@ -16,6 +16,7 @@ import { motion } from 'framer-motion';
 import { Phone, Star, Calendar, Smartphone, Clock, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 import type { ArtisanSite } from '@/lib/site-schema';
+import { ctaButtonLabel } from '@/lib/site-schema';
 import { Icon } from '@/components/Icon';
 
 /** Construit les variables CSS du thème (base + dérivées color-mix). */
@@ -280,7 +281,7 @@ export default function AquaJeuneTemplate({ data }: { data: ArtisanSite }) {
               <input type="tel" required placeholder="Téléphone (pour le SMS de confirmation)" value={form.tel} onChange={(e) => setForm({ ...form, tel: e.target.value })} className="w-full px-4 py-3 rounded-xl border outline-none" style={{ borderColor: 'var(--c-ink-10)' }} />
               <textarea required placeholder="Décrivez votre besoin" rows={5} value={form.besoin} onChange={(e) => setForm({ ...form, besoin: e.target.value })} className="w-full px-4 py-3 rounded-xl border outline-none resize-none" style={{ borderColor: 'var(--c-ink-10)' }} />
               <button type="submit" className="w-full text-white py-4 rounded-xl font-bold transition-colors flex items-center justify-center gap-2" style={{ background: 'var(--c-accent)' }}>
-                <Clock size={16} /> Recevoir mon créneau par SMS
+                <Clock size={16} /> {ctaButtonLabel(data.booking?.contactPref)}
               </button>
               <p className="text-xs text-center" style={{ color: 'var(--c-ink-55)' }}>Réponse rapide · Sans engagement</p>
             </form>
