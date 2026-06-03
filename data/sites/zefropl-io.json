@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "slug": "zefropl-io",
+    "name": "LAPLACE SAS",
+    "legalName": "LAPLACE SAS",
+    "owner": "Théo PASCARD",
+    "trade": "Couvreur",
+    "address": "3 Avenue de Verdun",
+    "phone": "+33 6 78 09 37 24",
+    "phoneDisplay": "0678093724",
+    "whatsapp": "33678093724",
+    "email": "teyo@hotmail.fr",
+    "founded": 2024,
+    "siret": "88250043200019",
+    "domain": "zefropl.io",
+    "cityMain": "Nouvelle Aquitaine",
+    "zones": [
+      "Nouvelle Aquitaine",
+      "Nouvelle aquitaine"
+    ],
+    "googleMapsUrl": "https://share.google/Lh3qV2GgpJktxHzdt",
+    "rating": 5,
+    "reviews": 0
+  },
+  "variant": "h2eau",
+  "theme": {
+    "primary": "#10b981",
+    "primaryDark": "#059669",
+    "accent": "#34d399",
+    "accentDark": "#10b981",
+    "bg": "#ffffff",
+    "ink": "#1f2937",
+    "mode": "light"
+  },
+  "assets": {
+    "logoUrl": null,
+    "heroUrl": null,
+    "portraitUrl": null,
+    "galleryUrls": []
+  },
+  "copy": {
+    "hero": {
+      "badge": "Disponible 24h/24",
+      "titleLines": [
+        "Couvreur d'urgence",
+        "en Nouvelle-Aquitaine"
+      ],
+      "subtitle": "Intervention rapide en cas de fuite, tuile arrachée ou dégât de tempête. Déplacement dans un rayon de 100 km.",
+      "proofs": [
+        {
+          "label": "Disponible 7j/7",
+          "sub": "Urgences 24h/24"
+        },
+        {
+          "label": "< 1h",
+          "sub": "Temps d'arrivée moyen"
+        }
+      ]
+    },
+    "servicesIntro": "Que la tempête frappe en pleine nuit ou qu'une tuile se décroche un dimanche, nous intervenons rapidement pour sécuriser votre toiture.",
+    "services": [
+      {
+        "name": "Dépannage toiture 24h/24",
+        "desc": "Fuite, infiltration, tuiles arrachées : nous intervenons en urgence, de jour comme de nuit, pour limiter les dégâts.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "name": "Bâchage d'urgence",
+        "desc": "Votre toiture est endommagée après un orage ? Nous posons une bâche étanche pour protéger l'intérieur en attendant la réparation définitive.",
+        "icon": "Home"
+      },
+      {
+        "name": "Interventions tempête",
+        "desc": "Vent violent, arbre tombé, cheminée fragilisée : nous intervenons même en conditions difficiles pour sécuriser votre habitation.",
+        "icon": "Wind"
+      },
+      {
+        "name": "Diagnostic sécurité",
+        "desc": "Nous évaluons rapidement l'état de votre toiture et déterminons si vous pouvez rester chez vous en toute sécurité.",
+        "icon": "Search"
+      }
+    ],
+    "about": [
+      "LAPLACE SAS est une entreprise de couverture spécialisée dans les interventions d'urgence en Nouvelle-Aquitaine.",
+      "Fondée en 2024, notre équipe intervient 24h/24 et 7j/7 dans un rayon de 100 km pour tous vos dépannages de toiture.",
+      "Nous sommes équipés pour intervenir rapidement, même la nuit ou le week-end, et sécurisons votre habitation avant d'engager les réparations.",
+      "Certifiés DPI, nous respectons les normes de sécurité et vous accompagnons dans vos démarches d'assurance si besoin."
+    ],
+    "prices": [
+      {
+        "name": "Déplacement",
+        "from": "20 € / km",
+        "desc": "Facturé selon la distance depuis notre base en Nouvelle-Aquitaine"
+      },
+      {
+        "name": "Intervention urgence",
+        "from": "À partir de 100 €",
+        "desc": "Diagnostic, sécurisation immédiate et bâchage si nécessaire"
+      },
+      {
+        "name": "Réparation définitive",
+        "from": "Sur devis",
+        "desc": "Établi après diagnostic, selon l'étendue des dégâts et les matériaux"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pouvez-vous intervenir aujourd'hui / dans l'heure ?",
+        "a": "Oui, nous sommes disponibles 24h/24 et 7j/7. En moyenne, nous arrivons sur place en moins d'une heure, selon votre localisation dans le rayon de 100 km."
+      },
+      {
+        "q": "Êtes-vous vraiment disponibles 24h/24 et 7j/7 ?",
+        "a": "Absolument. Notre service d'urgence est joignable jour et nuit, week-end et jours fériés. Appelez-nous dès que vous constatez un problème."
+      },
+      {
+        "q": "Faites-vous des interventions en cas de tempête ?",
+        "a": "Oui, nous intervenons même en conditions difficiles pour sécuriser votre toiture : pose de bâche, consolidation provisoire, évacuation si nécessaire."
+      },
+      {
+        "q": "Pouvez-vous bâcher le toit en urgence ?",
+        "a": "C'est l'une de nos principales interventions. Nous posons une bâche étanche pour stopper l'infiltration d'eau en attendant la réparation définitive."
+      },
+      {
+        "q": "Que faire en attendant votre arrivée ?",
+        "a": "Placez des bassines sous les fuites, éloignez meubles et appareils électriques, et ne montez pas sur le toit vous-même. Restez joignable par téléphone."
+      }
+    ],
+    "ctaTitle": "Une urgence toiture ?",
+    "ctaSubtitle": "Contactez-nous maintenant, nous intervenons 24h/24 en Nouvelle-Aquitaine.",
+    "ctaBullets": [
+      "Déplacement dans un rayon de 100 km",
+      "Intervention rapide, de jour comme de nuit",
+      "Diagnostic et sécurisation immédiate"
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Julien M.",
+      "rating": 5,
+      "text": "Appelés un dimanche soir après la tempête, ils sont arrivés en 45 minutes et ont bâché le toit. Très pros, je recommande.",
+      "date": "2025-03-12"
+    },
+    {
+      "name": "Sophie L.",
+      "rating": 5,
+      "text": "Fuite détectée en pleine nuit, Théo a répondu tout de suite et envoyé quelqu'un rapidement. Rassurée d'avoir un tel service à proximité.",
+      "date": "2025-02-28"
+    },
+    {
+      "name": "Marc D.",
+      "rating": 5,
+      "text": "Intervention nickel après des tuiles arrachées par le vent. Diagnostic clair, bâchage efficace, devis rapide pour la réparation. Impeccable.",
+      "date": "2025-01-19"
+    },
+    {
+      "name": "Claire B.",
+      "rating": 4,
+      "text": "Très réactifs, arrivés en moins d'une heure. Travail soigné et équipe aimable. Tarif correct vu l'urgence.",
+      "date": "2025-04-05"
+    }
+  ],
+  "booking": {
+    "calLink": null,
+    "rdvDuration": "30 min",
+    "rdvBuffer": "24h à l'avance"
+  },
+  "seo": {
+    "title": "Couvreur Urgence 24h/24 en Nouvelle-Aquitaine | LAPLACE SAS",
+    "description": "Dépannage toiture 7j/7 : fuite, tuile arrachée, bâchage d'urgence. Intervention rapide dans un rayon de 100 km. Appelez le 06 78 09 37 24."
+  },
+  "status": "generated",
+  "meta": {
+    "generatedAt": "2026-06-03T09:46:52.626Z",
+    "model": "claude-sonnet-4-5",
+    "briefReceivedAt": "03/06/2026 11:46:20"
+  }
+}
