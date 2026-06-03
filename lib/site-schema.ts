@@ -36,7 +36,7 @@ export type SiteVariant =
   | 'aquajeune'; // bleu clair + corail, plombier moderne / solo
 
 /** Templates déjà convertis en data-driven (rendus sans risque de build). */
-export const RESOLVED_TEMPLATES: SiteVariant[] = ['aquajeune', 'gs-climatech'];
+export const RESOLVED_TEMPLATES: SiteVariant[] = ['aquajeune', 'gs-climatech', 'h2eau'];
 
 /** Template de repli tant que tous ne sont pas convertis. */
 export const FALLBACK_TEMPLATE: SiteVariant = 'aquajeune';

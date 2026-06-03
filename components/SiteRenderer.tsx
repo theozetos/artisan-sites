@@ -15,11 +15,13 @@ import type { ArtisanSite, SiteVariant } from '@/lib/site-schema';
 import { resolveTemplate } from '@/lib/site-schema';
 import AquaJeuneTemplate from '@/components/templates/AquaJeuneTemplate';
 import GsClimatechTemplate from '@/components/templates/GsClimatechTemplate';
+import H2eauTemplate from '@/components/templates/H2eauTemplate';
 
 const TEMPLATES: Partial<Record<SiteVariant, React.ComponentType<{ data: ArtisanSite }>>> = {
   aquajeune: AquaJeuneTemplate,
   'gs-climatech': GsClimatechTemplate,
-  // h2eau, ur-beroa, ecochauff, maisonpro → à brancher au fur et à mesure
+  h2eau: H2eauTemplate,
+  // ur-beroa, ecochauff, maisonpro → à brancher au fur et à mesure
 };
 
 export default function SiteRenderer({ data }: { data: ArtisanSite }) {
